@@ -1,0 +1,7 @@
+XPTemplate priority=personal
+
+XPT listit
+for (ListIterator<`Type^> `i^ = `LinkedListName^.Start(); `i^.IsNotNull(); `i^`++^)
+{
+    `/*code*/^
+}

@@ -1,0 +1,44 @@
+XPTemplate priority=personal
+
+XPT fc
+XSET ComeFirst=0 Purpose
+;; `fcn-name^ : `input^ -> `output^
+;; Purpose: `Purpose^
+(define `fcn-name^ (lambda (`variables^)
+  `fcn-body^))
+
+XPT cond
+(cond [`condition^]` `...^
+`      [`condition^]` `...^`
+      [else ` `]^)
+
+XPT pro
+(provide `item^` `...^`
+         `item^``...^)
+
+XPT f
+(first `^)
+
+XPT r
+(rest `^)
+
+XPT s
+(second `^)
+
+XPT e
+(empty? `^)
+
+XPT +
+(+ `^)
+
+XPT -
+(- `^)
+
+XPT *
+(* `^)
+
+XPT /
+(/ `^)
+
+XPT .
+(`^)
